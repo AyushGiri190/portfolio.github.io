@@ -1,0 +1,285 @@
+.header {
+    background-color: #756f6f; /* Background color for the header */
+    color: #fff; /* Text color for the header */
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Make sure the header stays on top of other elements */
+}
+
+.content {
+    padding-top: 80px; /* Adjust this value to match the height of your header */
+    /* Other styles for your main content */
+}
+.d1{
+    display: inline-block;
+    background-color:aqua;
+}
+#dd{
+    float:right ;
+    width: 100px;
+}
+#about {
+    padding: 80px 0;
+    background-color: #f8f9fa; /* Change background color as needed */
+}
+
+#about h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333; /* Change text color as needed */
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666; /* Change text color as needed */
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+@media (min-width: 992px) {
+    .order-lg-1 {
+        order: 1;
+    }
+    .order-lg-2 {
+        order: 2;
+    }
+}
+
+   
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Change text color on hover as needed */
+}
+
+
+#education {
+    padding: 80px 0;
+    background-color: #f8f9fa; /* Change background color as needed */
+}
+
+#education h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333; /* Change text color as needed */
+    text-align: center;
+}
+
+.education-item {
+    margin-bottom: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h3 {
+    font-size: 24px;
+    color: #007bff; /* Change text color as needed */
+}
+
+.education-date {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.education-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666; /* Change text color as needed */
+}
+
+
+.navbar-nav {
+    display: flex; /* Display the list items in a horizontal line */
+    align-items: center; /* Align items vertically in the center */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px; /* Add some spacing between items */
+}
+
+.navbar-nav .nav-link {
+    color: #333; /* Change text color as needed */
+    text-decoration: none; /* Remove default underline */
+    font-weight: bold; /* Add bold font weight */
+    transition: color 0.3s; /* Add transition effect */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Change text color on hover */
+}
+
+#projects {
+    padding: 80px 0;
+    background-color: #f8f9fa; /* Change background color as needed */
+}
+
+#projects h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333; /* Change text color as needed */
+    text-align: center;
+}
+
+.project-item {
+    background-color: #fff; /* Change background color as needed */
+    padding: 20px;
+    margin-bottom: 30px; /* Add some space between items */
+    border-radius: 5px; /* Add border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+}
+
+.project-item h3 {
+    font-size: 24px;
+    color: #007bff; /* Change text color as needed */
+    margin-bottom: 10px; /* Add some spacing */
+}
+
+.project-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666; /* Change text color as needed */
+}
+
+.project-item a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff; /* Change link color as needed */
+}
+
+.project-item a:hover {
+    text-decoration: underline;
+}
+
+
+#publications {
+    padding: 80px 0;
+    background-color: #f8f9fa; /* Change background color as needed */
+}
+
+#publications h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333; /* Change text color as needed */
+    text-align: center;
+}
+
+.publication-item {
+    background-color: #fff; /* Change background color as needed */
+    padding: 20px;
+    margin-bottom: 30px; /* Add some space between items */
+    border-radius: 5px; /* Add border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+}
+
+.publication-item h3 {
+    font-size: 24px;
+    color: #007bff; /* Change text color as needed */
+    margin-bottom: 10px; /* Add some spacing */
+}
+
+.publication-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666; /* Change text color as needed */
+}
+
+.publication-item a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff; /* Change link color as needed */
+}
+
+.publication-item a:hover {
+    text-decoration: underline;
+}
+
+#contact {
+    padding: 80px 0;
+    background-color: #f8f9fa; /* Change background color as needed */
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333; /* Change text color as needed */
+    text-align: center;
+}
+
+.contact-form {
+    background-color: #fff; /* Change background color as needed */
+    padding: 30px;
+    border-radius: 5px; /* Add border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+}
+
+.contact-form textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Change button color */
+    color: #fff; /* Change text color */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3; /* Change button color on hover */
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.social-media-list {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media-list li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media-list a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333; /* Change link color */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+}
+
+.social-media-list a:hover {
+    background-color: #007bff; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+    border-color: #007bff; /* Change border color on hover */
+}
